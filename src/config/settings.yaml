@@ -1,0 +1,56 @@
+data:
+  csv_path: "data/winemag-data-130k-v2.csv"
+  encoding: "utf-8"
+
+text:
+  default_stopwords:
+    - "drink"
+    - "now"
+    - "wine"
+    - "flavor"
+    - "flavors"
+  
+wordcloud:
+  max_words: 200
+  max_font_size: 50
+  min_font_size: 4
+  background_color: "black"
+  prefer_horizontal: 0.9
+  relative_scaling: 0.5
+
+masks:
+  input_dir: "masks"
+  format_transform: true
+
+output:
+  directory: "output"
+  dpi: 300
+  format: "png"
+
+variants:
+  basic_single:
+    max_words: 100
+    max_font_size: 50
+  
+  basic_all:
+    max_words: 200
+    use_stopwords: true
+  
+  wine_masked:
+    max_words: 1000
+    mask_file: "wine_mask.png"
+    contour_width: 1
+    contour_color: "white"
+  
+  country_masked:
+    max_words: 10000
+    max_font_size: 12
+    contour_width: 1
+    contour_color: "white"
+    color_from_mask: true
+    countries:
+      - "US"
+      - "France"
+      - "Italy"
+      - "Spain"
+      - "Portugal"
