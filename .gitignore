@@ -1,5 +1,5 @@
 .venv/
 test_output/
-*.md
+*_*.md
 __pycache__/
 *.pyc
