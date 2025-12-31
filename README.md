@@ -1,6 +1,6 @@
 # WordCloud From Data on Image
 
-A modular Python package for generating word clouds from wine reviews data with configurable options and multiple generation variants.
+A modular Python package for generating word clouds from wine reviews dataset with configurable options and multiple generation variants.
 
 ## Features
 
