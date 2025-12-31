@@ -177,4 +177,4 @@ generator.save_output(wordcloud, "my_wordcloud")
 
 ## License
 
-This project is open source and available under the MIT License.
+This project is a open source project and is available under the MIT License.
