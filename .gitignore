@@ -2,6 +2,4 @@
 __pycache__/
 test_output/
 *.pyc
-ACTION_ITEMS.md
-PROJECT_PLAN.md
-AGENTS.md
+.DS_Store
