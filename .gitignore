@@ -1,5 +1,7 @@
 .venv/
-test_output/
-*_*.md
 __pycache__/
+test_output/
 *.pyc
+ACTION_ITEMS.md
+PROJECT_PLAN.md
+AGENTS.md
