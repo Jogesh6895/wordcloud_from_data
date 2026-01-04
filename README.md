@@ -182,7 +182,7 @@ This project is a open source project and is available under the [MIT License](L
 
 ## 👨‍💻 Author
 
-**Jogesh Ghadai**
+**Jogesh Kumar Ghadai**
 - Email: jogesh6895@gmail.com
 - GitHub: [@Jogesh6895](https://github.com/Jogesh6895)
 
