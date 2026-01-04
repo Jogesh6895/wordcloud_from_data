@@ -175,6 +175,15 @@ wordcloud = generator.generate()
 generator.save_output(wordcloud, "my_wordcloud")
 ```
 
-## License
+## 📄 License
 
-This project is a open source project and is available under the MIT License.
+This project is a open source project and is available under the [MIT License](LICENSE).
+
+
+## 👨‍💻 Author
+
+**Jogesh Ghadai**
+- Email: jogesh6895@gmail.com
+- GitHub: [@Jogesh6895](https://github.com/Jogesh6895)
+
+---
